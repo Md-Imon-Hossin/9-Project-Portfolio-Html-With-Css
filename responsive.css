@@ -1,0 +1,292 @@
+@media (max-width: 1400px) {
+  .about-me-title h2 {
+    border-bottom: 6px dotted #fff;
+    width: 11%;
+    margin: auto;
+    padding-bottom: 8px;
+    color: #fff;
+    font-size: 20px;
+  }
+  .works-experience .card {
+    background-color: #95a5a6;
+    padding: 35px;
+    transition: 0.4s;
+    height: 700px;
+  }
+  .skills .card {
+    background-color: #95a5a6;
+    transition: 0.4s;
+    padding: 35px;
+    height: 700px;
+  }
+  .inner-acheivement-2 h2 {
+    font-size: 18px;
+  }
+  .inner-achivement-3 h2 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .works-experience .card {
+    background-color: #95a5a6;
+    padding: 35px;
+    transition: 0.4s;
+    height: 730px;
+  }
+
+  .skills .card {
+    background-color: #95a5a6;
+    transition: 0.4s;
+    padding: 35px;
+    height: 730px;
+  }
+  .card-title h2 {
+    text-align: center;
+    background-color: #34495e;
+    color: #fff;
+    margin-top: 20px;
+    padding: 8px;
+    font-size: 15px;
+  }
+  .header-center-heading h1 {
+    text-align: center;
+    margin-left: 80px;
+    color: #fff;
+    margin-top: 12px;
+    font-size: 16px;
+  }
+  .header-right-menu ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding: 0 10px;
+    margin-top: 12px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 1050px) {
+  .about-me-title h2 {
+    border-bottom: 6px dotted #fff;
+    width: 11%;
+    margin: auto;
+    padding-bottom: 8px;
+    color: #fff;
+    font-size: 17px;
+  }
+  .works-experience {
+    width: 100%;
+    margin-right: 2%;
+  }
+  .skills {
+    width: 100%;
+    margin-right: 0;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  .works-experience .card {
+    background-color: #95a5a6;
+    padding: 35px;
+    transition: 0.4s;
+    height: 650px;
+  }
+  .inner-acheivement-2 h2 {
+    font-size: 15px;
+    text-align: center;
+    margin-left: 60px;
+  }
+  .inner-achivement-3 h2 {
+    font-size: 15px;
+    margin-left: 80px;
+  }
+}
+
+@media (max-width: 992px) {
+  .about-me-left-img {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-top: -70px;
+  }
+  .about-me-left-img img {
+    width: 180px;
+    height: 180px;
+    border: 5px solid #fff;
+    border-radius: 50%;
+    margin-top: 60px;
+  }
+  .header-center-heading h1 {
+    text-align: center;
+    margin-left: 80px;
+    color: #fff;
+    margin-top: 12px;
+    font-size: 13px;
+  }
+  .header-right-menu ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding: 0 7px;
+    margin-top: 12px;
+    font-size: 12px;
+  }
+  .header-left-logo span {
+    font-size: 25px;
+    display: inline-block;
+    color: #bdc3c7;
+  }
+  .about-me-title h2 {
+    border-bottom: 6px dotted #fff;
+    width: 11%;
+    margin: auto;
+    padding-bottom: 8px;
+    color: #fff;
+    font-size: 15px;
+  }
+  .inner-acheivement-2 h2 {
+    font-size: 12px;
+    text-align: center;
+    margin-left: 60px;
+  }
+  .inner-achivement-3 h2 {
+    font-size: 13px;
+    margin-left: 80px;
+  }
+  .contact-button button {
+    background-color: #596275;
+    border: none;
+    cursor: pointer;
+    padding: 6px 25px;
+    color: #fff;
+    font-size: 10px;
+    text-transform: uppercase;
+    margin-right: 10px;
+    border-radius: 10px;
+  }
+}
+@media (max-width: 976px) {
+  .about-me-right-writting {
+    width: 100%;
+    margin-top: 40px;
+  }
+  .about-me-title h2 {
+    border-bottom: 6px dotted #fff;
+    width: 11%;
+    margin: auto;
+    padding-bottom: 8px;
+    color: #fff;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 768px) {
+  .about-me-title h2 {
+    border-bottom: 6px dotted #fff;
+    width: 11%;
+    margin: auto;
+    padding-bottom: 8px;
+    color: #fff;
+    font-size: 10px;
+  }
+  .header-left-logo {
+    width: 50%;
+  }
+  .header-center-logo {
+    width: 50%;
+  }
+  .header-center-heading h1 {
+    text-align: center;
+    margin-left: 80px;
+    color: #fff;
+    margin-top: 11px;
+    font-size: 12px;
+  }
+  .header-right-menu {
+    width: 100%;
+  }
+  .header-right-menu ul {
+    list-style: none;
+    margin-left: 90px;
+    text-align: center;
+  }
+  .achievement-3 {
+    width: 100%;
+  }
+  .achievement-2 {
+    width: 100%;
+  }
+  .achievement-1 {
+    width: 100%;
+  }
+  .inner-acheivement-2 h2 {
+    font-size: 12px;
+    text-align: center;
+    margin-left: 180px;
+    margin-top: 20px;
+  }
+  .inner-achivement-3 h2 {
+    width: 26%;
+    margin-left: 240px;
+  }
+  .inner-achievement-1 h2 {
+    width: 30%;
+  }
+}
+@media (max-width: 676px) {
+  .header-center-heading h1 {
+    text-align: center;
+    margin-left: 80px;
+    color: #fff;
+    margin-top: 11px;
+    font-size: 10px;
+  }
+  .inner-achivement-3 h2 {
+    width: 35%;
+    margin-left: 195px;
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 576px) {
+  .header-center-heading h1 {
+    text-align: center;
+    margin-left: 80px;
+    color: #fff;
+    margin-top: 11px;
+    font-size: 8px;
+  }
+  .header-right-menu ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding: 0 5px;
+    margin-top: 12px;
+    font-size: 10px;
+  }
+  .inner-acheivement-2 h2 {
+    font-size: 12px;
+    text-align: center;
+    margin-left: 140px;
+    margin-top: 20px;
+  }
+  .inner-achivement-3 h2 {
+    width: 37%;
+    margin-left: 150px;
+    margin-top: 30px;
+  }
+}
+@media (max-width: 476px) {
+  .inner-acheivement-2 h2 {
+    font-size: 12px;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 20px;
+  }
+  .inner-achivement-3 h2 {
+    width: 42%;
+    margin-left: 120px;
+    margin-top: 30px;
+    font-size: 10px;
+  }
+}

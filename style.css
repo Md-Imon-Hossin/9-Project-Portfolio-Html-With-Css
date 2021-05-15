@@ -1,0 +1,479 @@
+/* ============================= Default Css ======================= */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Fira Sans", sans-serif;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.clear::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+.text-center {
+  text-align: center;
+}
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+.fixed-width {
+  width: 78%;
+  margin: auto;
+}
+
+/* ================ Header ================= */
+.header {
+  background-color: #0c6168;
+  padding: 10px 0;
+}
+.header-left-logo {
+  width: 25%;
+}
+.header-left-logo span {
+  font-size: 35px;
+  display: inline-block;
+  color: #bdc3c7;
+}
+.header-center-heading {
+  width: 30%;
+}
+.header-center-heading h1 {
+  text-align: center;
+  margin-left: 80px;
+  color: #fff;
+  margin-top: 12px;
+}
+.header-right-menu {
+  width: 45%;
+}
+.header-right-menu ul {
+  list-style: none;
+  text-align: right;
+}
+.header-right-menu ul li {
+  display: inline-block;
+}
+.header-right-menu ul li a {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  padding: 0 15px;
+  margin-top: 12px;
+}
+.header-right-menu ul li a:hover {
+}
+/* ======================= profile ======================== */
+
+.profile {
+  padding: 40px 0;
+}
+.profile-top-icon {
+  text-align: right;
+}
+.profile-top-icon img {
+  width: 90px;
+  transition: 0.4s;
+  cursor: pointer;
+}
+.profile-top-icon img:hover {
+  transform: rotate(360deg);
+}
+.profile-mid-heading {
+}
+.profile-mid-heading h1 {
+  font-family: "Satisfy", cursive;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+.profile-mid-heading p {
+  margin-bottom: 30px;
+  color: #767676;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.6rem;
+  margin-top: 12px;
+}
+.profile-bottom-icon {
+}
+.profile-bottom-icon img {
+  width: 90px;
+  transition: 0.4s;
+  cursor: pointer;
+}
+.profile-bottom-icon img:hover {
+  transform: rotate(360deg);
+}
+/* ===================== About Me ============================== */
+.about-me {
+  padding: 40px 0;
+  background-color: #2980b9;
+}
+.about-me-title {
+}
+.about-me-title h2 {
+  border-bottom: 6px dotted #fff;
+  width: 11%;
+  margin: auto;
+  padding-bottom: 8px;
+  color: #fff;
+}
+.about-me-portfolio {
+  margin-top: 80px;
+}
+.about-me-left-img {
+  width: 30%;
+}
+.about-me-left-img img {
+  width: 220px;
+  height: 220px;
+  border: 5px solid #fff;
+  border-radius: 50%;
+  margin-top: 60px;
+}
+.about-me-right-writting {
+  width: 65%;
+}
+.about-me-right-inner-writing {
+}
+.about-me-right-inner-writing p {
+  font-weight: 300;
+  color: #fff;
+  margin-bottom: 20px;
+  text-align: justify;
+  line-height: 1.6rem;
+}
+.about-me-right-inner-writing p a {
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 400;
+  color: #fff;
+}
+.about-me-hr {
+  color: #fff;
+  margin-bottom: 20px;
+}
+/* =================== Professional Experience ========================  */
+.works-experience {
+  padding: 60px 0;
+}
+.works-experience {
+  width: 31%;
+  margin-right: 2%;
+}
+.works-experience .card {
+  background-color: #95a5a6;
+  padding: 35px;
+  transition: 0.4s;
+}
+.works-experience .card:hover {
+  box-shadow: 0 4px 8px 5px black;
+}
+.works-experience .card .card-img img {
+  border: 5px solid #fff;
+  border-radius: 50%;
+  padding: 5px;
+  width: 80px;
+  height: 80px;
+}
+.works-experience .card .card-img {
+  text-align: center;
+}
+.card-title {
+}
+.card-title h2 {
+  text-align: center;
+  background-color: #34495e;
+  color: #fff;
+  margin-top: 20px;
+  padding: 8px;
+}
+.works-experience .card hr {
+  color: #fff;
+}
+.card-description {
+  margin-top: 20px;
+}
+.card-description ol {
+}
+.card-description ol li {
+  padding: 8px 0;
+}
+.card-description ol li strong {
+}
+
+.skills {
+  width: 32%;
+  margin-right: 0;
+  margin-top: 60px;
+}
+.skills img {
+  width: 80px;
+}
+.skills .card {
+  background-color: #95a5a6;
+  transition: 0.4s;
+  padding: 35px;
+}
+.skills .card:hover {
+  box-shadow: 0 4px 8px 5px black;
+}
+.skills .card .card-img {
+  text-align: center;
+}
+.skills .card .card-img img {
+  border: 5px solid #fff;
+  border-radius: 50%;
+  padding: 5px;
+  width: 80px;
+  height: 80px;
+}
+.skills .card-description {
+}
+.skills .card-inner-item {
+}
+.skills .card-inner-item ul {
+  list-style: none;
+}
+.skills .card-inner-item ul li {
+  margin: 30px 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+  position: relative;
+}
+.skills .card-inner-item ul li::before {
+  content: "";
+  position: absolute;
+  background-color: rgba(86, 86, 153, 0.5);
+  width: 100%;
+  height: 10px;
+  top: 25px;
+  left: 0;
+  border-radius: 15px;
+}
+.skills .card-inner-item ul li::after {
+  content: "";
+  position: absolute;
+  background-color: rgba(86, 86, 153, 1);
+  width: 0;
+  height: 10px;
+  top: 25px;
+  left: 0;
+  border-radius: 15px;
+
+  animation-duration: 3s;
+  animation-delay: 2s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+}
+.skills .card-inner-item ul li.html::after {
+  animation-name: html;
+}
+@keyframes html {
+  to {
+    width: 95%;
+  }
+}
+
+.skills .card-inner-item ul li.css::after {
+  animation-name: css;
+}
+@keyframes css {
+  to {
+    width: 90%;
+  }
+}
+.skills .card-inner-item ul li.bootstrap::after {
+  animation-name: bootstrap;
+}
+@keyframes bootstrap {
+  to {
+    width: 95%;
+  }
+}
+.skills .card-inner-item ul li.psd-to-html::after {
+  animation-name: psd-to-html;
+}
+@keyframes psd-to-html {
+  to {
+    width: 70%;
+  }
+}
+.skills .card-inner-item ul li.jquery::after {
+  animation-name: jquery;
+}
+@keyframes jquery {
+  to {
+    width: 75%;
+  }
+}
+.skills .card-inner-item ul li.javascript::after {
+  animation-name: javascript;
+}
+@keyframes javascript {
+  to {
+    width: 85%;
+  }
+}
+.skills .card-inner-item ul li.React-js::after {
+  animation-name: React-js;
+}
+@keyframes React-js {
+  to {
+    width: 40%;
+  }
+}
+.skills .card-inner-item ul li.node-js::after {
+  animation-name: node-js;
+}
+@keyframes node-js {
+  to {
+    width: 60%;
+  }
+}
+.skills .card-inner-item ul li.mongodb::after {
+  animation-name: mongodb;
+}
+@keyframes mongodb {
+  to {
+    width: 30%;
+  }
+}
+/* =================== contact section ======================== */
+.achivement {
+  padding: 50px 0;
+  background-color: #22a6b3;
+}
+.achievement-1 {
+  width: 31%;
+  margin-right: 2%;
+}
+.inner-achievement-1 {
+}
+.inner-achievement-1 h2 {
+  border-bottom: 6px dotted #fff;
+  width: 35%;
+  margin: auto;
+  padding-bottom: 8px;
+  color: #fff;
+  margin-right: 160px;
+  text-transform: uppercase;
+}
+
+.inner-achievement-1 ol {
+  margin-top: 20px;
+}
+.inner-achievement-1 ol li {
+  padding: 10px 0;
+  color: #fff;
+  line-height: 1.5em;
+}
+
+.achievement-2 {
+  width: 31%;
+  margin-right: 2%;
+}
+.inner-acheivement-2 {
+}
+.inner-acheivement-2 h2 {
+  border-bottom: 6px dotted #fff;
+  width: 38%;
+  margin: auto;
+  padding-bottom: 8px;
+  color: #fff;
+  margin-right: 160px;
+  text-transform: uppercase;
+}
+.contact-form {
+  margin-top: 30px;
+}
+.contact-form input {
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  border: none;
+  margin-bottom: 15px;
+  border-radius: 6px;
+}
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+.contact-button {
+}
+.contact-button button {
+  background-color: #596275;
+  border: none;
+  cursor: pointer;
+  padding: 8px 30px;
+  color: #fff;
+  font-size: 15px;
+  text-transform: uppercase;
+  margin-right: 10px;
+  border-radius: 10px;
+}
+
+.achievement-3 {
+  width: 33%;
+}
+.inner-achivement-3 {
+}
+.inner-achivement-3 h2 {
+  border-bottom: 6px dotted #fff;
+  width: 70%;
+  margin: auto;
+  padding-bottom: 8px;
+  color: #fff;
+  margin-right: 160px;
+  text-transform: uppercase;
+  margin-left: 80px;
+  margin-bottom: 60px;
+}
+.first-icon {
+  text-align: center;
+  margin-left: 40px;
+}
+.first-icon a {
+  background: #fff;
+  margin-bottom: 20px;
+  display: inline-block;
+  font-size: 25px;
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+  margin-left: 10px;
+  transition: 0.4s;
+  color: red;
+}
+.first-icon a:hover {
+  background: #2ecc71;
+  color: #fff;
+}
+/* ===================  Footer ======================= */
+.footer {
+  background-color: #2c3e50;
+  padding: 20px 0;
+}
+.footer p {
+  text-align: center;
+  color: #fff;
+}
